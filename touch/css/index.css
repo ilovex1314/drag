@@ -1,0 +1,57 @@
+.top img{
+	width: 100%;
+}
+.main{
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.main input{
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+	border-radius: 0.5rem;
+	background-color: #ffffff;
+	border: 1px solid #dfe0e1;
+	color: #c3c3c3;
+	padding: 0.6rem;
+	margin-top: 0.8rem;
+	outline: none;
+}
+.main input:focus{
+	border-radius: 0.5rem;
+	border-color: #76a8ff;
+	border-width: 0.1rem;
+}
+.main .yanZheng{
+	float: left;
+	width: 50%;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.main button{
+	border-radius: 0.5rem;
+	background-color: #f3f3f3;
+	border: 1px solid #dfe0e1;
+	color: #c3c3c3;
+	padding: 0.6rem;
+	float: right;
+	width: 40%;
+	margin-top: 0.8rem;
+}
+.main .input{
+	width: 100%;
+}
+.main .submit{
+	background-color: #fb9341;
+	color: #fff;
+	padding: 0.8rem 4rem;
+	margin: 4rem;
+	/*position: absolute;
+	bottom: 25%;
+	left: 50%;
+	margin-left: -5em;*/
+}
+

@@ -1,0 +1,415 @@
+body{
+    width: 100%;
+    padding-bottom: 2.5rem;
+}
+.top{
+    width: 100%;
+    background-color: #fff;
+}
+.top:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.top li{
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 1rem;
+}
+li a{
+    display: inline-block;
+}
+li p{
+    color:#666;
+    margin: 0.5rem 0;
+}
+.top div{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 0.5rem 0.3rem;
+    margin: 0 auto;
+}
+.top .topWaiMai{
+    background-color: #ff833f;
+    background-image: url('../img/waimai.png');
+}
+.top .topFile{
+    background-color: #ff6f65;
+    background-image: url('../img/file.png');
+}
+.top .topTel{
+    background-color: #61c0fc;
+    background-image: url('../img/tel.png');
+    background-position: 0.3rem 0.3rem;
+}
+.top .topGame{
+    background-color: #ffb342;
+    background-image: url('../img/game.png');
+}
+.top .topKtv{
+    background-color: #79aaff;
+    background-image: url('../img/ktv.png');
+}
+.top .topHotel{
+    background-color: #ff79a1;
+    background-image: url('../img/hotel.png');
+}
+.top .topJipiao{
+    background-color: #76a8ff;
+    background-image: url('../img/air.png');
+}
+.top .topXianZhi{
+    background-color: #cf97ff;
+    background-image: url('../img/xianzhi.png');
+}
+.top .topMeijia{
+    background-color: #ff80a6;
+    background-image: url('../img/meijia.png');
+}
+.top .topMore{
+    background-color: #ff945b;
+    background-image: url('../img/more.png');
+}
+
+.moiveDirectory, .dailyEnjoy, .weekStar, .searchSever, .life, .taobao{
+    margin-top: 0.7rem;
+    background-color: #fff;
+}
+.title{
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    color: #333;
+    padding: 1rem 0.7rem;
+}
+.moiveMain{
+    width: 100%;
+    overflow: hidden;
+}
+.moiveDirectory .moiveContent {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 40rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.7rem;
+    height: 9.6rem;
+    overflow: hidden;
+    position: relative;
+}
+.moiveBox{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 19rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #e8e8e8;
+    background-color: #fbfbfb;
+    display: inline-block;
+    margin-left: 0.7rem;
+}
+.position{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+.position2{
+    position: absolute;
+    top: 0rem;
+    left: 19.5rem;
+}
+.moiveBox:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.moiveBox img{
+    height: 100%;
+    width: 7.4rem;
+    display: inline-block;
+    float: left;
+}
+.moiveBox .moiveBoxMain{
+    display: inline-block;
+   /* margin-left: 8rem;*/
+   float: right;
+   margin-right: 2rem;
+}
+.moiveBox .moiveBoxMain p{
+    font-size: 1rem;
+    color: #666;
+    padding: 0.3rem 0;
+}
+.moiveBox .moiveBoxMain p span{
+    color: #ff4949;
+    font-weight: 600;
+}
+.moiveBox .moiveBoxMain .mBTitle{
+    font-size: 1.2rem;
+    color: #000;
+    padding: 1rem 0 0.5rem 0;
+}
+.moiveBox .moiveBoxMain .nBTip{
+    font-size: 1.1rem;
+    /*margin-top: 0.5rem;*/
+    color: #fea359;
+}
+.dailyEnjoy:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.dailyEnjoy li{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-bottom: 1rem;
+}
+.dailyImg{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-size: 4.5rem 4.5rem;
+    background-image: url('../img/e.png');
+}
+.weekStar .weekContent{
+    width: 100%;
+    height: 9rem;
+    padding-bottom: 1rem;
+}
+.weekStar .weekContent .wCon{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 40rem;
+    height: 8.6rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.7rem;
+    height: 9rem;
+    overflow: hidden;
+}
+.wBox{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 19rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #e8e8e8;
+    background-color: #fbfbfb;
+    display: inline-block;
+    position: relative;
+}
+.wBox img{
+    width: 100%;
+}
+.wMain{
+    width: 100%;
+    overflow: hidden;
+}
+.weekShow:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.showBox1, .showBox2, .showBox3, .showBox4{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 50%;
+    height: 5.5rem;
+    display: inline-block;
+    float: left;
+    padding: 0.8rem 0.6rem;
+    position: relative;
+}
+.weekShow .showBox1{
+    border-bottom: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+.weekShow .showBox2{
+    border-bottom: 1px solid #f4f4f4;
+}
+.weekShow .showBox3{
+    border-right: 1px solid #f4f4f4;
+}
+.weekShow img{
+    width: 3.1rem;
+    height: 3.1rem;
+}
+.weekShow p{
+    font-size: 1rem;
+    color: #333;
+    position: absolute;
+    left: 3.8rem;
+    top: 1rem;
+}
+.weekShow span{
+    font-size: 0.9rem;
+    color: #666;
+    position: absolute;
+    left: 3.8rem;
+    top: 2.5rem;
+}
+.toBeSevrant{
+    padding: 0 1rem;
+}
+.toBeTitle{
+    font-size: 1.3rem;
+    /*font-weight: 600;*/
+    color: #666;
+}
+.toBeSevrant p{
+    font-size: 0.8rem;
+    color: #666;
+    padding: 0.5rem 0;
+}
+.toBeSevrant button{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    text-align: center;
+    font-size: 1rem;
+    color: #ff9129;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 0.5rem;
+    background-color: #fffdfa;
+    border: 0.15rem solid #ff8805;
+    margin: 0.8rem 0;
+}
+.searchSever .searchImgShow:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.searchSever img{
+    width: 49%;
+}
+.searchSever .searchImgShow .sLeft{
+    float: left;
+}
+.searchSever .searchImgShow .sRight{
+    float: right;
+}
+.searchShowContent:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.searchShowContent .searchShowBox{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    float: left;
+    width: 25%;
+    height: 5.5rem;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    border-color: #f4f4f4;
+}
+.searchShowContent .searchShowBox .sSBC{
+    margin: 0 auto;
+}
+.searchShowContent .searchShowBox a{
+    display: inline-block;
+}
+.searchShowContent .searchShowBox p{
+    font-size: 1rem;
+    color: #666;
+    padding: 1rem 0;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.searchShowContent .searchShowBox div{
+    width: 4rem;
+    height: 2.8rem;
+    margin: 0 auto;
+    background-size: 4rem 2.8rem;
+}
+.sSBImg1{
+    background-image: url('../img/ss1.png');
+}
+.sSBImg2{
+    background-image: url('../img/ss2.png');
+}
+.sSBImg3{
+    background-image: url('../img/ss3.png');
+}
+.sSBImg4{
+    background-image: url('../img/ss4.png');
+}
+.sSBImg5{
+    background-image: url('../img/ss5.png');
+}
+.sSBImg6{
+    background-image: url('../img/ss6.png');
+}
+.sSBImg7{
+    background-image: url('../img/ss7.png');
+}
+.sSBImg8{
+    background-image: url('../img/ss8.png');
+}
+.life{
+    padding-bottom: 0.7rem;
+}
+.life a{
+    display: block;
+    width: 100%;
+}
+.life img{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.taobaoShow{
+    padding: 0 0.7rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f4f4f4;
+}
+.taobaoShow:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.taobao img{
+    width: 6.6rem;
+    height: 6rem;
+    float: left;
+}
+.taobao .taobaoShowWord{
+    width: 12.4rem;
+    height: 6rem;
+    float: right;
+    position: relative;
+}
+.taobao .taobaoShowWord p{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: #333;
+    line-height: 1.2rem;
+    width: 100%;
+    padding-bottom: 0.3rem;
+}
+.taobao .taobaoShowWord .icoAd{
+    width: 1rem;
+    height: 1.1rem;
+    display: inline-block;
+    background-image: url('../img/ico.png');
+    background-size: 1rem 1.1rem;
+    margin-right: -0.5rem;
+}
+.taobao .taobaoShowWord span{
+    font-size: 1rem;
+    color: #a1a1a1;
+}
+.taobao .taobaoShowWord .price{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 1.2rem;
+    color: #ff5e14;
+    font-weight: 700;
+}
