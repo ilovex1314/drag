@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding : 0px;
+			margin: 0px;
+		}
+		#drag{
+			width: 100px;
+			height: 100px;
+			background-color: #f40;
+
+		}
+		#other{
+			width: 200px;
+			height: 200px;
+			background-color: #e3e3e3;
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="drag" draggable="true"></div>
+	<div id="other"></div>
+	
+	<script>
+		var drag = document.getElementById('drag'),
+			other = document.getElementById('other');
+
+		drag.addEventListener('dragstart', function(e){
+			console.log('开始拖拽');
+			// e.dataTransfer.setData('words', 'hello world');
+		}, false)
+
+		drag.addEventListener('dragend', function(){
+			console.log('拖拽结束');
+		}, false)
+
+		other.addEventListener('dragenter', function(){
+			console.log('被拖拽元素进入');
+		}, false)
+
+		other.addEventListener('dragover', function(e){
+			console.log('被拖拽元素在上面');
+			// console.log(e);
+			e.preventDefault();
+			// var words = e.dataTransfer.getData('words');
+			// console.log(words);
+			// other.innerHTML = '<p>' + words + '</p>';
+		}, false)
+
+		other.addEventListener('drop', function(e){
+			console.log('拖拽结束drop');
+			document.body.removeChild(drag);
+			this.appendChild(drag);
+		}, false)
+	</script>
+</body>
+</html>
